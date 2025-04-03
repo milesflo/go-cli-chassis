@@ -16,4 +16,6 @@ sed -i -e "s/go-cli-chassis/$binaryname/g" .gitignore
 # # Oh, I'm die. Thank you forever.
 rm bootstrap.sh
 
+git add .
+
 git commit -m "Project $title initialized from template"
